@@ -29,6 +29,7 @@ Import raster images and SVG as React Component in Next.js.
   - [Use with other libraries for Next.js](#use-with-other-libraries-for-nextjs)
   - [Styling SVG](#styling-svg)
 - [Contributing to next-component-images](#contributing-to-next-component-images)
+  - [Git branch naming convention](#git-branch-naming-convention)
 - [License](#license)
 
 <!-- /TOC -->
@@ -165,12 +166,10 @@ Bug reports and pull requests are welcome on GitHub at
 intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the
 [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-We adhere GitHub Flow to develop this project. Anything in the `master` branch is deployable. To work on something new, create
-a descriptively named branch off of master, also add a prefix `feature/` to its name. For more details, see
-[GitHub Flow – Scott Chacon](http://scottchacon.com/2011/08/31/github-flow.html).
+Please read [Contributing Guidelines](./.github/CONTRIBUTING.md) before development and contributing.
 
 
 ## License
 The library is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
-Copyright 2017 Jaga Apple. All rights reserved.
+Copyright 2018 Jaga Apple. All rights reserved.
