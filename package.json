@@ -20,7 +20,9 @@
     "type": "git",
     "url": "https://github.com/jagaapple/next-component-images.git"
   },
-  "scripts": {},
+  "scripts": {
+    "fix": "prettier --write \"./**/*.js\""
+  },
   "config": {},
   "dependencies": {
     "file-loader": "^1.1.11",
