@@ -1,0 +1,34 @@
+{
+  "name": "next-component-images",
+  "version": "0.1.0",
+  "description": "Import raster images and SVG as React Component in Next.js.",
+  "keywords": [
+    "Next.js",
+    "React",
+    "images",
+    "SVG"
+  ],
+  "homepage": "https://github.com/jagaapple/next-component-images",
+  "bugs": "https://github.com/jagaapple/next-component-images/issues",
+  "license": "MIT",
+  "author": "Jaga Apple",
+  "contributors": [],
+  "main": "index.js",
+  "bin": "",
+  "man": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jagaapple/next-component-images.git"
+  },
+  "scripts": {},
+  "config": {},
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^1.13.7"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "engineStrict": false,
+  "preferGlobal": false,
+  "private": false
+}
