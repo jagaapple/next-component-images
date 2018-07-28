@@ -173,4 +173,4 @@ a descriptively named branch off of master, also add a prefix `feature/` to its 
 ## License
 The library is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
-Copyright 2017 Jaga Apple. All rights reserved.
+Copyright 2018 Jaga Apple. All rights reserved.
