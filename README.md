@@ -27,6 +27,7 @@ Import raster images and SVG as React Component in Next.js.
   - [Configures SVGO](#configures-svgo)
 - [Recipes](#recipes)
   - [Use with other libraries for Next.js](#use-with-other-libraries-for-nextjs)
+  - [Styling SVG](#styling-svg)
 - [Contributing to next-component-images](#contributing-to-next-component-images)
 - [License](#license)
 
@@ -142,6 +143,19 @@ const withComponentImages = require("next-component-images");
 module.exports = withTypescript(withComponentImages({
   // Options are here.
 });
+```
+
+### Styling SVG
+Imported SVG is React SVGFactory, so you can specify `width` , `height` , and `fill` attributes.
+
+```jsx
+import LogoImage from "./logo.svg";
+
+export default () => (
+  <div>
+    <LogoImage fill="#f00" />
+  </div>
+);
 ```
 
 

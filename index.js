@@ -17,16 +17,12 @@ module.exports = (nextConfig = {}) => {
       const componentImagesOptions = nextConfig.componentImagesOptions || {};
 
       // Configures webpack for raster images.
-      config.module.rules.push(rasterImagesRule(
-        componentImagesOptions.inlineSizeLimit,
-        componentImagesOptions.pathPrefix,
-        isServer,
-      ));
+      config.module.rules.push(
+        rasterImagesRule(componentImagesOptions.inlineSizeLimit, componentImagesOptions.pathPrefix, isServer),
+      );
 
       // Configures webpack for SVG images.
-      config.module.rules.push(svgImagesRule(
-        componentImagesOptions.svgoOptions,
-      ))
+      config.module.rules.push(svgImagesRule(componentImagesOptions.svgoOptions));
 
       if (typeof nextConfig.webpack === "function") {
         return nextConfig.webpack(config, options);

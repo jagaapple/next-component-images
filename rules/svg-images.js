@@ -7,7 +7,7 @@ module.exports = (svgoOptions = {}) => ({
     {
       loader: "react-svg-loader",
       options: {
-        jsx: true,
+        jsx: false,
         svgo: svgoOptions,
       },
     },
