@@ -2,7 +2,7 @@
 <!-- CHANGELOG                                                                                                               -->
 <!-- ======================================================================================================================= -->
 # Changelog
-## DEPRECATED (2018-08-24)
+## DEPRECATED (2018-08-23)
 - This package has been deprecated and recommend to use [next-image-element](https://github.com/jagaapple/next-image-element)
 instead
 
