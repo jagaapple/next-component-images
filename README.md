@@ -1,8 +1,15 @@
 <!-- ======================================================================================================================= -->
 <!-- README                                                                                                                  -->
 <!-- ======================================================================================================================= -->
+# This package has been deprecated
+This package has been deprecated and recommend to use [next-image-element](https://github.com/jagaapple/next-image-element)
+instead.
+
+---
+
 # Next.js + Raster Images + SVG Images as React Component
 
+[![npm](https://img.shields.io/npm/v/next-component-images.svg)](https://www.npmjs.com/package/next-component-images)
 [![license](https://img.shields.io/github/license/jagaapple/next-component-images.svg)](https://opensource.org/licenses/MIT)
 [![@jagaapple_tech](https://img.shields.io/badge/contact-%40jagaapple_tech-blue.svg)](https://twitter.com/jagaapple_tech)
 
@@ -29,7 +36,6 @@ Import raster images and SVG as React Component in Next.js.
   - [Use with other libraries for Next.js](#use-with-other-libraries-for-nextjs)
   - [Styling SVG](#styling-svg)
 - [Contributing to next-component-images](#contributing-to-next-component-images)
-  - [Git branch naming convention](#git-branch-naming-convention)
 - [License](#license)
 
 <!-- /TOC -->
